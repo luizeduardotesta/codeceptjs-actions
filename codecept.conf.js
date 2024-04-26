@@ -13,7 +13,7 @@ exports.config = {
   helpers: {
     Playwright: {
       url: 'https://loginxp.vercel.app',
-      show: false,
+      show: true,     //{false} ativa o headless
       browser: 'chromium'
     },
     Mochawesome: {
